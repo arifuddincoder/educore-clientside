@@ -5,8 +5,8 @@
 **Server URL:** [https://b11a11-educore-server.vercel.app](https://b11a11-educore-server.vercel.app)
 
 ## 📁 Project Repositories
-- Client: [https://github.com/Programming-Hero-Web-Course4/b11a11-client-side-arif128551](https://github.com/Programming-Hero-Web-Course4/b11a11-client-side-arif128551)
-- Server: [https://github.com/Programming-Hero-Web-Course4/b11a11-server-side-arif128551](https://github.com/Programming-Hero-Web-Course4/b11a11-server-side-arif128551)
+- **Client:** [EduCore Client](https://github.com/arif128551/educore_clientside)
+- **Server:** [EduCore Server](https://github.com/arif128551/educore_serverside)
 
 ## 📅 Project Description
 EduCore is a full-stack Course Management System that allows users to browse, enroll, and manage educational courses in a clean and modern UI. It includes Firebase authentication, Firebase-based login (Email/Google/GitHub), protected routes, course management, seat-limit validation, and dynamic filtering.

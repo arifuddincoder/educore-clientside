@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --color-brand-blue: #0166FF;
+  --color-brand-black1: #010101;
+  --color-brand-black2: #292C3F;
+  --color-brand-gray1: #707070;
+  --color-brand-gray2: #F2F2F2;
+  --color-brand-gray3: #F5F5F5;
+  --color-brand-gray4: #4F5A5A;
+  --color-brand-gray5: #717171;
+  --color-brand-gray6: #cfcfcf;
+}
+
+@layer utilities {
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+
+}
+
+
+body {
+  font-family: var(--font-inter);
+}
+
+ul.menu-horizontal .active {
+  color: black;
+}
+
+.testimonial .slick-slide>div {
+  display: flex !important;
+  height: 100% !important;
+}
+
+.footer-links li a:hover {
+  color: var(--color-brand-black1);
+}

@@ -8,6 +8,66 @@
 - **Client:** [EduCore Client](https://github.com/arif128551/educore_clientside)
 - **Server:** [EduCore Server](https://github.com/arif128551/educore_serverside)
 
+## 🧪 How to Run Locally
+
+To run the project locally on your machine, follow these steps carefully:
+
+### 🚀 1. Clone & Run the Client
+
+```bash
+git clone https://github.com/arif128551/educore_clientside.git
+cd educore_clientside
+npm install
+npm run dev
+```
+
+### 🛠️ 2. Clone & Run the Server
+
+```bash
+git clone https://github.com/arif128551/educore_serverside.git
+cd educore_serverside
+npm install
+npm run dev
+```
+
+✅ **Note:** The client will not function properly unless the server is running.  
+So make sure the server is started **before** using the client.
+
+---
+
+### 🔐 3. Setup `.env` Files
+
+Create a `.env` file in both the client and server directories.
+
+For **client**:
+```
+VITE_API_URL=http://localhost:5000
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+```
+
+For **server**:
+```
+PORT=5000
+DB_USER=your_mongo_user
+DB_PASS=your_mongo_pass
+FB_SERVICE_KEY=base64_encoded_service_account_json
+```
+
+If there are `.env.example` files, copy them as `.env` and fill in the correct values.
+
+---
+
+Now you're all set!  
+- Server should run at `http://localhost:5000`  
+- Client should run at `http://localhost:5173`
+
+---
+
 ## 📅 Project Description
 EduCore is a full-stack Course Management System that allows users to browse, enroll, and manage educational courses in a clean and modern UI. It includes Firebase authentication, Firebase-based login (Email/Google/GitHub), protected routes, course management, seat-limit validation, and dynamic filtering.
 

@@ -73,6 +73,16 @@ const Navbar = () => {
 			) : (
 				<>
 					<li>
+						<NavLink className="hover:text-black" to="/about">
+							About
+						</NavLink>
+					</li>
+					<li>
+						<NavLink className="hover:text-black" to="/how-it-works">
+							How it Works
+						</NavLink>
+					</li>
+					<li>
 						<NavLink className="hover:text-black" to="/contact">
 							Contact
 						</NavLink>

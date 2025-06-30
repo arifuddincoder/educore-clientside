@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router";
 import logoImg from "../assets/educore-logo.png";
 import UseAuth from "../hooks/useAuth";
@@ -6,6 +6,22 @@ import toast from "react-hot-toast";
 import { PiUserCircleFill } from "react-icons/pi";
 import { Tooltip } from "react-tooltip";
 const Navbar = () => {
+	const [isSticky, setIsSticky] = useState(false);
+
+	useEffect(() => {
+		const handleScroll = () => {
+			// 80px এর বেশি স্ক্রল হলেই shadow লাগবে
+			if (window.scrollY > 80) {
+				setIsSticky(true);
+			} else {
+				setIsSticky(false);
+			}
+		};
+
+		window.addEventListener("scroll", handleScroll);
+		return () => window.removeEventListener("scroll", handleScroll);
+	}, []);
+
 	const { user, signOutUser } = UseAuth();
 	const handleLogout = () => {
 		signOutUser()
@@ -71,8 +87,15 @@ const Navbar = () => {
 			)}
 		</>
 	);
+
 	return (
-		<div className="py-4">
+		<div
+			className={`sticky top-0 z-50 transition-all duration-300 py-3 ${
+				isSticky
+					? "bg-white/80 backdrop-blur-md shadow-md border-b border-gray-200"
+					: "bg-gradient-to-r from-white via-gray-50 to-white"
+			}`}
+		>
 			<div className="navbar container mx-auto items-center flex">
 				<div className="navbar-start sm:w-[40%] w-full">
 					<div className="dropdown">

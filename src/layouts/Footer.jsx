@@ -56,10 +56,10 @@ const Footer = () => {
 								<Link to="/courses">All Courses</Link>
 							</li>
 							<li>
-								<Link>Popular Courses</Link>
+								<Link to="/about">About EduCore</Link>
 							</li>
 							<li>
-								<Link>About EduCore</Link>
+								<Link to="/how-it-works">How It Works</Link>
 							</li>
 						</ul>
 					</div>
@@ -67,16 +67,16 @@ const Footer = () => {
 						<h3 className="text-brand-black1 font-medium mb-5">Support & Info</h3>
 						<ul className="text-brand-gray5 space-y-3 footer-links">
 							<li>
-								<Link>Help Center</Link>
+								<Link to="/help-center">Help Center</Link>
 							</li>
 							<li>
-								<Link>FAQ</Link>
+								<Link to="faq">FAQs</Link>
 							</li>
 							<li>
 								<Link to="/contact">Contact Us</Link>
 							</li>
 							<li>
-								<Link>Terms & Conditions</Link>
+								<Link to="/terms-conditions">Terms & Conditions</Link>
 							</li>
 						</ul>
 					</div>

@@ -53,12 +53,12 @@ const Navbar = () => {
 					</li>
 					<li>
 						<NavLink className="hover:text-black" to="/manage-courses">
-							Manage Courses
+							Manage <span className="lg:hidden xl:inline-block">Courses</span>
 						</NavLink>
 					</li>
 					<li>
 						<NavLink className="hover:text-black" to="/my-courses">
-							My Enrolled Courses
+							Enrolled <span className="lg:hidden xl:inline-block">Courses</span>
 						</NavLink>
 					</li>
 					<li>

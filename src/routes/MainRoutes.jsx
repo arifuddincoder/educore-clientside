@@ -14,6 +14,11 @@ import Contact from "../pages/Contact/Contact";
 import Courses from "../pages/Courses/Courses";
 import axios from "axios";
 import PageLoader from "../components/PageLoader";
+import About from "../pages/infoPages/About";
+import HowItWorks from "../pages/infoPages/HowItWorks";
+import HelpCenter from "../pages/infoPages/HelpCenter";
+import Faqs from "../pages/infoPages/Faqs";
+import TermsAndConditions from "../pages/infoPages/TermsAndConditions";
 
 export const router = createBrowserRouter([
 	{
@@ -75,11 +80,35 @@ export const router = createBrowserRouter([
 				Component: Contact,
 			},
 			{
+				path: "/about",
+				Component: About,
+			},
+			{
+				path: "/how-it-works",
+				Component: HowItWorks,
+			},
+			{
+				path: "/help-center",
+				Component: HelpCenter,
+			},
+			{
+				path: "/faq",
+				Component: Faqs,
+			},
+			{
+				path: "/terms-conditions",
+				Component: TermsAndConditions,
+			},
+			{
 				path: "/login",
 				Component: Login,
 			},
 			{
 				path: "/register",
+				Component: Register,
+			},
+			{
+				path: "/about",
 				Component: Register,
 			},
 		],

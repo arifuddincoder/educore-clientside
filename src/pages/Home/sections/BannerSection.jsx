@@ -74,7 +74,7 @@ const BannerSection = () => {
 		<section className="relative">
 			<Slider {...settings}>
 				{slides.map((slide, index) => (
-					<div key={index} className="h-[80vh] relative">
+					<div key={index} className="h-[75vh] relative">
 						<div
 							className="w-full h-full bg-cover bg-center"
 							style={{

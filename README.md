@@ -5,8 +5,8 @@
 **Server URL:** [https://b11a11-educore-server.vercel.app](https://b11a11-educore-server.vercel.app)
 
 ## 📁 Project Repositories
-- **Client:** [EduCore Client](https://github.com/arif128551/educore_clientside)
-- **Server:** [EduCore Server](https://github.com/arif128551/educore_serverside)
+- **Client:** [EduCore Client](https://github.com/arifuddincoder/educore_clientside)
+- **Server:** [EduCore Server](https://github.com/arifuddincoder/educore_serverside)
 
 ## 🧪 How to Run Locally
 
@@ -15,7 +15,7 @@ To run the project locally on your machine, follow these steps carefully:
 ### 🚀 1. Clone & Run the Client
 
 ```bash
-git clone https://github.com/arif128551/educore_clientside.git
+git clone https://github.com/arifuddincoder/educore_clientside.git
 cd educore_clientside
 npm install
 npm run dev
@@ -24,7 +24,7 @@ npm run dev
 ### 🛠️ 2. Clone & Run the Server
 
 ```bash
-git clone https://github.com/arif128551/educore_serverside.git
+git clone https://github.com/arifuddincoder/educore_serverside.git
 cd educore_serverside
 npm install
 npm run dev

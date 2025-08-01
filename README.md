@@ -175,7 +175,7 @@ const verifyTokenEmail = async (req, res, next) => { /* ... */ }
 
 ## 🌞 Developer Info
 **Md Arif Uddin**  
-📧 xossarif@gmail.com  
+📧 arifuddincoder@gmail.com  
 Assignment-11 Project for Programming Hero
 
 ## 🚨 Deployment Notes

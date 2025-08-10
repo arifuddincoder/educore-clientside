@@ -29,17 +29,17 @@ const Footer = () => {
 					</p>
 					<ul className="flex gap-2 sm:gap-3 flex-wrap text-brand-black2/50">
 						<li className="bg-brand-gray6 p-3 rounded-sm">
-							<Link to="https://www.facebook.com/xoss.arif" target="_blank">
+							<Link to="https://www.facebook.com/arifuddincoder" target="_blank">
 								<FaFacebookF size={15} />
 							</Link>
 						</li>
 						<li className="bg-brand-gray6 p-3 rounded-sm">
-							<Link to="https://x.com/xoss_arif" target="_blank">
+							<Link to="https://x.com/arifuddincoder" target="_blank">
 								<FaXTwitter size={15} />
 							</Link>
 						</li>
 						<li className="bg-brand-gray6 p-3 rounded-sm">
-							<Link to="https://www.linkedin.com/in/arif128551/" target="_blank">
+							<Link to="https://www.linkedin.com/in/arifuddincoder/" target="_blank">
 								<FaLinkedinIn size={15} />
 							</Link>
 						</li>

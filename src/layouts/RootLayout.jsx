@@ -15,7 +15,7 @@ const RootLayout = () => {
 	return (
 		<>
 			<Navbar></Navbar>
-			<div className="min-h-screen">
+			<div className="min-h-[80]">
 				<Outlet></Outlet>
 			</div>
 			<Footer></Footer>
